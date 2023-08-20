@@ -3,13 +3,6 @@ We want to extend the default template instead of defining everything ourselves.
 #}
 {% extends "default/module.html.jinja2" %}
 
-{% block nav_members %}
-    {% if module.members %}
-        <h2>Submodules</h2>
-        {{ nav_members(module.members.values()) }}
-    {% endif %}
-{% endblock %}
-
 {% block attribution %}
         <a class="attribution" title="pdoc: Python API documentation generator" href="https://pdoc.dev" target="_blank">built with pdoc 
         </a>
