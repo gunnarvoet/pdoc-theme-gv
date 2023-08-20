@@ -18,3 +18,11 @@
     /* --def: #5C6BC0; */
     /* --annotation: #00c037; */
 }
+
+
+/* overwrite the linenumber settings that come as standard with pygments */
+pre { line-height: 125%; }
+td.linenos .normal { color: #CFD8DC; background-color: transparent; padding-left: 5px; padding-right: 20px; }
+span.linenos { color: #CFD8DC; background-color: transparent; padding-left: 5px; padding-right: 20px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
