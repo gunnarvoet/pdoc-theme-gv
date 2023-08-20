@@ -143,3 +143,9 @@ nav.pdoc input[type=search] {
 .pdoc .pdoc-button {
     border: none;
 }
+
+/* pdoc attribution */
+/* note: removing the logo in module.html.jinja2 */
+.pdoc .attribution {
+    font-size: 80%;
+}
