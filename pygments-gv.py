@@ -2,7 +2,16 @@ from pathlib import Path
 from pygments import highlight
 from pygments.style import Style
 from pygments.lexers import Python3Lexer
-from pygments.token import Keyword, Name, Comment, String, Operator
+from pygments.token import (
+    Keyword,
+    Name,
+    Comment,
+    String,
+    Error,
+    Number,
+    Operator,
+    Generic,
+)
 from pygments.formatters import HtmlFormatter
 
 
